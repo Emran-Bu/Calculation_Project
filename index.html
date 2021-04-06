@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <title>Four in one project</title>
+    <link rel="stylesheet" href="css/animate.min.css">
+    <title>Four | In | One | Project</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mb-2">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Calculation</a>
+            <a class="navbar-brand" href="#">Calculation <span
+                    style="font-size: 12px; color: khaki; text-shadow: 3px 5px 4px rgb(49, 49, 48);">(Emran)</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,28 +31,32 @@
     </nav>
 
     <!-- summation -->
-    <div class="container" id="sum" >
+    <div class="container animate__animated animate__backInDown" id="sum">
         <h4 class="display-6 text-center">Summation Of M TO N Number</h4>
-        <div class="mt-2"><hr>
+        <div class="mt-2">
+            <hr>
             <form class="justify-content-center" id="sumForm" action="">
-                
+
                 <div class="row">
                     <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                         <div class="form-group d-flex justify-content-center">
-                            <label class="form-control bg-secondary text-light me-2 w-50" for="name">Enter lowest Number:</label>
+                            <label class="form-control bg-secondary text-light me-2 w-50" for="name">Enter lowest
+                                Number:</label>
                             <input id="sum1" class="form-control w-50" type="number">
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                         <div class="form-group my-4 d-flex justify-content-center">
-                            <label class="form-control bg-secondary text-light me-2 w-50" for="name">Enter Highest Number:</label>
+                            <label class="form-control bg-secondary text-light me-2 w-50" for="name">Enter Highest
+                                Number:</label>
                             <input id="sum2" class="form-control w-50" type="number">
                         </div>
                     </div>
 
                     <div class="offset-6 col-6 col-sm-5 offset-sm-6 col-lg-4 offset-lg-6 col-xl-3 offset-xl-6">
-                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100" type="submit">Submit</button>
+                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100"
+                            type="submit">Submit</button>
                     </div>
                 </div>
             </form>
@@ -59,28 +65,32 @@
 
     <!-- even summation -->
     <div id="even">
-        <div class="container">
+        <div class="container animate__animated animate__backInLeft">
             <h4 class="display-6 text-center">Summation Of Even Number</h4>
-            <div class="mt-2"><hr>
+            <div class="mt-2">
+                <hr>
                 <form class="justify-content-center" id="evenForm" action="">
-                    
+
                     <div class="row">
                         <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                             <div class="form-group d-flex justify-content-center">
-                                <label class="form-control bg-success text-light me-2 w-50" for="name">Enter lowest Even Number:</label>
+                                <label class="form-control bg-success text-light me-2 w-50" for="name">Enter lowest Even
+                                    Number:</label>
                                 <input id="even1" class="form-control w-50" type="number">
                             </div>
                         </div>
-    
+
                         <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                             <div class="form-group my-4 d-flex justify-content-center">
-                                <label class="form-control bg-success text-light me-2 w-50" for="name">Enter Highest Even Number:</label>
+                                <label class="form-control bg-success text-light me-2 w-50" for="name">Enter Highest
+                                    Even Number:</label>
                                 <input id="even2" class="form-control w-50" type="number">
                             </div>
                         </div>
-    
+
                         <div class="offset-6 col-6 col-sm-5 offset-sm-6 col-lg-4 offset-lg-6 col-xl-3 offset-xl-6">
-                            <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100" type="submit">Submit</button>
+                            <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100"
+                                type="submit">Submit</button>
                         </div>
                     </div>
                 </form>
@@ -89,28 +99,32 @@
     </div>
 
     <!-- odd summation -->
-    <div class="container" id="odd">
+    <div class="container animate__animated animate__backInRight" id="odd">
         <h4 class="display-6 text-center">Summation Of Odd Number</h4>
-        <div class="mt-2"><hr>
+        <div class="mt-2">
+            <hr>
             <form class="justify-content-center" id="oddForm" action="">
-                
+
                 <div class="row">
                     <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                         <div class="form-group d-flex justify-content-center">
-                            <label class="form-control bg-info text-light me-2 w-50" for="name">Enter lowest odd Number:</label>
+                            <label class="form-control bg-info text-light me-2 w-50" for="name">Enter lowest odd
+                                Number:</label>
                             <input id="odd1" class="form-control w-50" type="number">
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                         <div class="form-group my-4 d-flex justify-content-center">
-                            <label class="form-control bg-info text-light me-2 w-50" for="name">Enter Highest odd Number:</label>
+                            <label class="form-control bg-info text-light me-2 w-50" for="name">Enter Highest odd
+                                Number:</label>
                             <input id="odd2" class="form-control w-50" type="number">
                         </div>
                     </div>
 
                     <div class="offset-6 col-6 col-sm-5 offset-sm-6 col-lg-4 offset-lg-6 col-xl-3 offset-xl-6">
-                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100" type="submit">Submit</button>
+                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100"
+                            type="submit">Submit</button>
                     </div>
                 </div>
             </form>
@@ -118,11 +132,13 @@
     </div>
 
     <!-- leap year -->
-    <div class="container" id="leapYear">
+    <div class="container animate__animated animate__backInUp" id="leapYear">
         <h4 class="display-6 text-center">Check Leap Year</h4>
-        <div class="mt-2"><hr>
+        <div class="mt-2">
+            <hr>
+
             <form class="justify-content-center" id="yearForm" action="">
-                
+
                 <div class="row">
                     <div class="my-2 col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
                         <div class="form-group d-flex justify-content-center">
@@ -131,8 +147,22 @@
                         </div>
                     </div>
 
+                    <div>
+                        <h3 class="text-center text-danger">Or</h3>
+                    </div>
+
+                    <div class="my-2 col-12 col-sm-10 offset-sm-1 col-lg-8 offset-lg-2 col-xl-6 offset-xl-3 ">
+                        <div class="form-group d-flex justify-content-center">
+                            <label class="form-control bg-dark text-light me-2 w-50" for="name">Select a Year :</label>
+                            <select class="form-control w-50" name="year" id="yearSelect">
+                                <option value="0"> &#8810;.....Select a year.....&#8811;</option>
+                            </select>
+                        </div>
+                    </div>
+
                     <div class="offset-6 col-6 col-sm-5 offset-sm-6 col-lg-4 offset-lg-6 col-xl-3 offset-xl-6">
-                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100" type="submit">Submit</button>
+                        <button data-bs-toggle="modal" data-bs-target="#loginmodal" class="btn btn-primary w-100"
+                            type="submit">Submit</button>
                     </div>
                 </div>
             </form>
@@ -143,24 +173,26 @@
 
     <div class="modal" id="loginmodal">
         <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h2>Result</h2>
-              <button class="btn" data-bs-dismiss="modal" type="button" name="button">&times;</button>
-            </div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Result</h2>
+                    <button class="btn" data-bs-dismiss="modal" type="button" name="button">&times;</button>
+                </div>
 
-            <div class="modal-body">
-                <h3 id="modal"></h3>
-            </div>
+                <div class="modal-body">
+                    <h3 id="modal"></h3>
+                </div>
 
-            <div class="modal-footer">
-              <button class="btn btn-danger" data-bs-dismiss="modal" type="button" name="button">Close</button>
-            </div>
+                <div class="modal-footer">
+                    <button class="btn btn-danger" data-bs-dismiss="modal" type="button" name="button">Close</button>
+                </div>
 
-          </div>
+            </div>
         </div>
-      </div>
+    </div>
 
+    <audio id="audio" src="audio/Warning_Alarm.mp3"></audio>
+    <!--  -->
     <script>
         var Totalsum = document.getElementById('Totalsum')
         var evenSum = document.getElementById('evenSum')
@@ -170,38 +202,59 @@
         var even = document.getElementById('even')
         var odd = document.getElementById('odd')
         var leapYear = document.getElementById('leapYear')
+        var audio = document.getElementById('audio')
 
-            sum.style.display="block"
-            even.style.display="none"
-            odd.style.display="none"
-            leapYear.style.display="none"
+        sum.style.display = "block"
+        even.style.display = "none"
+        odd.style.display = "none"
+        leapYear.style.display = "none"
 
-        Totalsum.addEventListener("click", function() {
-            sum.style.display="block"
-            even.style.display="none"
-            odd.style.display="none"
-            leapYear.style.display="none"
+        Totalsum.addEventListener("click", function () {
+            sum.style.display = "block"
+            even.style.display = "none"
+            odd.style.display = "none"
+            leapYear.style.display = "none"
+
+            Totalsum.classList.add('active')
+            evenSum.classList.remove('active')
+            oddSum.classList.remove('active')
+            leap.classList.remove('active')
         })
 
-        evenSum.addEventListener("click", function() {
-            sum.style.display="none"
-            even.style.display="block"
-            odd.style.display="none"
-            leapYear.style.display="none"
+        evenSum.addEventListener("click", function () {
+            sum.style.display = "none"
+            even.style.display = "block"
+            odd.style.display = "none"
+            leapYear.style.display = "none"
+
+            Totalsum.classList.remove('active')
+            evenSum.classList.add('active')
+            oddSum.classList.remove('active')
+            leap.classList.remove('active')
         })
 
-        oddSum.addEventListener("click", function() {
-            sum.style.display="none"
-            even.style.display="none"
-            odd.style.display="block"
-            leapYear.style.display="none"
+        oddSum.addEventListener("click", function () {
+            sum.style.display = "none"
+            even.style.display = "none"
+            odd.style.display = "block"
+            leapYear.style.display = "none"
+
+            Totalsum.classList.remove('active')
+            evenSum.classList.remove('active')
+            oddSum.classList.add('active')
+            leap.classList.remove('active')
         })
 
-        leap.addEventListener("click", function() {
-            sum.style.display="none"
-            even.style.display="none"
-            odd.style.display="none"
-            leapYear.style.display="block"
+        leap.addEventListener("click", function () {
+            sum.style.display = "none"
+            even.style.display = "none"
+            odd.style.display = "none"
+            leapYear.style.display = "block"
+
+            Totalsum.classList.remove('active')
+            evenSum.classList.remove('active')
+            oddSum.classList.remove('active')
+            leap.classList.add('active')
         })
 
         // SumForm summation calculation
@@ -209,148 +262,221 @@
         var sum2 = document.getElementById('sum2')
         var sumForm = document.getElementById('sumForm')
 
-        sumForm.addEventListener('submit', function(e) {
+        sumForm.addEventListener('submit', function (e) {
             e.preventDefault()
 
-                document.querySelector('.modal-backdrop').style.display = "block"
-                document.querySelector('.modal').style.display = "block"
-                setTimeout(() => {
-                        document.querySelector('.modal-backdrop').style.display = "none"
-                        document.querySelector('.modal').style.display = "none"
-                    }, 3000);
-
-            if (Number.parseInt(sum1.value)>Number.parseInt(sum2.value)) {
-
+            if (sum1.value == 0 || sum2.value == 0) {
                 sum1.style.border = "2px solid red"
                 sum2.style.border = "2px solid red"
-                document.getElementById('modal').innerHTML= "The first box input must be smaller than the 2nd box"
+                document.getElementById('modal').innerHTML = "Please Enter an Input"
                 document.getElementById('modal').style.color = "red"
-            } else{
-
-                sum1.style.border = "2px solid blue"
-                sum2.style.border = "2px solid blue"
-                document.getElementById('modal').style.color = "green"
-                var n = 0;
-
-                for (let i = Number.parseInt(sum1.value); i <= Number.parseInt(sum2.value); i++) {
-                n = n + i;
-                }
-                document.getElementById('modal').innerHTML= sum1.value + "+......................+" + sum2.value + " = " + n
-            }
-            })
-
-                
-
-            // Even Number calculation
-            var even1 = document.getElementById('even1')
-            var even2 = document.getElementById('even2')
-            var evenForm = document.getElementById('evenForm')
-
-            evenForm.addEventListener('submit', function(p) {
-                p.preventDefault()
+                audio.play();
+            } else {
 
                 document.querySelector('.modal-backdrop').style.display = "block"
                 document.querySelector('.modal').style.display = "block"
                 setTimeout(() => {
-                        document.querySelector('.modal-backdrop').style.display = "none"
-                        document.querySelector('.modal').style.display = "none"
-                    }, 3000);
+                    document.querySelector('.modal-backdrop').style.display = "none"
+                    document.querySelector('.modal').style.display = "none"
+                }, 3000);
 
-                if (Number.parseInt(even1.value)>Number.parseInt(even2.value)) {
+                if (Number.parseInt(sum1.value) > Number.parseInt(sum2.value)) {
+
+                    sum1.style.border = "2px solid red"
+                    sum2.style.border = "2px solid red"
+                    document.getElementById('modal').innerHTML = "The first box input must be smaller than the 2nd box"
+                    document.getElementById('modal').style.color = "red"
+                    audio.play();
+                } else {
+
+                    sum1.style.border = "2px solid blue"
+                    sum2.style.border = "2px solid blue"
+                    document.getElementById('modal').style.color = "green"
+                    var n = 0;
+
+                    for (let i = Number.parseInt(sum1.value); i <= Number.parseInt(sum2.value); i++) {
+                        n = n + i;
+                    }
+                    document.getElementById('modal').innerHTML = sum1.value + "+......................+" + sum2.value + " = " + n
+                }
+                // sum1.value=null;
+                this.reset();
+
+            }
+
+
+        })
+
+
+        // Even Number calculation
+        var even1 = document.getElementById('even1')
+        var even2 = document.getElementById('even2')
+        var evenForm = document.getElementById('evenForm')
+
+        evenForm.addEventListener('submit', function (p) {
+            p.preventDefault()
+
+            if (even1.value == 0 || even2.value == 0) {
+                even1.style.border = "2px solid red"
+                even2.style.border = "2px solid red"
+                document.getElementById('modal').innerHTML = "Please Enter an Input"
+                document.getElementById('modal').style.color = "red"
+                audio.play();
+            } else {
+
+                document.querySelector('.modal-backdrop').style.display = "block"
+                document.querySelector('.modal').style.display = "block"
+                setTimeout(() => {
+                    document.querySelector('.modal-backdrop').style.display = "none"
+                    document.querySelector('.modal').style.display = "none"
+                }, 3000);
+
+                if (Number.parseInt(even1.value) > Number.parseInt(even2.value)) {
                     even1.style.border = "2px solid red"
                     even2.style.border = "2px solid red"
-                    document.getElementById('modal').innerHTML= "The first box input must be smaller than the 2nd box"
+                    document.getElementById('modal').innerHTML = "The first box input must be smaller than the 2nd box"
                     document.getElementById('modal').style.color = "red"
-                } else{
+                    audio.play();
+                } else {
 
-                even1.style.border = "2px solid blue"
-                even2.style.border = "2px solid blue"
-                document.getElementById('modal').style.color = "green"
-                var j = 0;
-                var k = Number.parseInt(even1.value);
-                while( k <= Number.parseInt(even2.value)){
-                    if (k % 2 == 0) {
-                        j = j + k;
+                    even1.style.border = "2px solid blue"
+                    even2.style.border = "2px solid blue"
+                    document.getElementById('modal').style.color = "green"
+                    var j = 0;
+                    var k = Number.parseInt(even1.value);
+                    while (k <= Number.parseInt(even2.value)) {
+                        if (k % 2 == 0) {
+                            j = j + k;
+                        }
+                        k++;
                     }
-                    k++;
+                    document.getElementById('modal').innerHTML = even1.value + "+......................+" + even2.value + " = " + j
                 }
-                document.getElementById('modal').innerHTML= even1.value + "+......................+" + even2.value + " = " + j
-                }
-                })
-            
-            // odd Number calculation
+                this.reset();
 
-            var odd1 = document.getElementById('odd1')
-            var odd2 = document.getElementById('odd2')
-            var oddForm = document.getElementById('oddForm')
+            }
 
-            oddForm.addEventListener('submit', function(p) {
-                p.preventDefault()
+
+        })
+
+        // odd Number calculation
+
+        var odd1 = document.getElementById('odd1')
+        var odd2 = document.getElementById('odd2')
+        var oddForm = document.getElementById('oddForm')
+
+        oddForm.addEventListener('submit', function (p) {
+            p.preventDefault()
+
+            if (odd1.value == 0 || odd2.value == 0) {
+                odd1.style.border = "2px solid red"
+                odd2.style.border = "2px solid red"
+                document.getElementById('modal').innerHTML = "Please Enter an Input"
+                document.getElementById('modal').style.color = "red"
+                audio.play();
+            } else {
 
                 document.querySelector('.modal-backdrop').style.display = "block";
                 document.querySelector('.modal').style.display = "block";
                 setTimeout(() => {
-                        document.querySelector('.modal-backdrop').style.display = "none";
-                        document.querySelector('.modal').style.display = "none"
-                    }, 3000);
+                    document.querySelector('.modal-backdrop').style.display = "none";
+                    document.querySelector('.modal').style.display = "none"
+                }, 3000);
 
-                if (Number.parseInt(odd1.value)>Number.parseInt(odd2.value)) {
+                if (Number.parseInt(odd1.value) > Number.parseInt(odd2.value)) {
                     odd1.style.border = "2px solid red"
                     odd2.style.border = "2px solid red"
-                    document.getElementById('modal').innerHTML= "The first box input must be smaller than the 2nd box"
+                    document.getElementById('modal').innerHTML = "The first box input must be smaller than the 2nd box"
                     document.getElementById('modal').style.color = "red"
-                } else{
+                    audio.play();
+                } else {
 
-                odd1.style.border = "2px solid blue"
-                odd2.style.border = "2px solid blue"
-                document.getElementById('modal').style.color = "green"
-                var j = 0;
-                var k = Number.parseInt(odd1.value);
-                while( k <= Number.parseInt(odd2.value)){
-                    if (k % 2 == 1) {
-                        j = j + k;
-                    }
-                    k++;
-                }
-                document.getElementById('modal').innerHTML= odd1.value + "+......................+" + odd2.value + " = " + j
-                }
-                })
-
-                // leap year check
-
-                var years = document.getElementById('year')
-                var yearForm = document.getElementById('yearForm')
-
-                yearForm.addEventListener('submit', function(p) {
-                    p.preventDefault()
-
-                    document.querySelector('.modal-backdrop').style.display = "block"
-                    document.querySelector('.modal').style.display = "block"
-
-                    if (years.value < 0) {
-                        years.style.border = "2px solid red"
-                        document.getElementById('modal').innerHTML= "Year Can not be negative"
-                        document.getElementById('modal').style.color = "red"
-                    } else{
-
-                    years.style.border = "2px solid blue"
+                    odd1.style.border = "2px solid blue"
+                    odd2.style.border = "2px solid blue"
                     document.getElementById('modal').style.color = "green"
+                    var j = 0;
+                    var k = Number.parseInt(odd1.value);
+                    while (k <= Number.parseInt(odd2.value)) {
+                        if (k % 2 == 1) {
+                            j = j + k;
+                        }
+                        k++;
+                    }
+                    document.getElementById('modal').innerHTML = odd1.value + "+......................+" + odd2.value + " = " + j
+                }
+                this.reset();
 
-                    var year = years.value;
+            }
 
-                    if (year % 400 == 0) {
-                        document.getElementById('modal').innerHTML = year + " is leap Year";
-                    } else if( year % 4 == 0){
-                        if (year % 100 !== 0) {
+
+        })
+
+        // leap year check
+
+        var years = document.getElementById('year')
+        var yearForm = document.getElementById('yearForm')
+
+
+        // select year
+
+        var yearSelect = document.getElementById('yearSelect')
+
+        function year(leap) {
+            var node = document.createElement("option");
+            var textNode = document.createTextNode(leap);
+            node.appendChild(textNode);
+            yearSelect.appendChild(node);
+        }
+
+        for (let h = 1950; h <= 3000; h++) {
+            year(h)
+
+        }
+
+        yearForm.addEventListener('submit', function (p) {
+            p.preventDefault()
+
+            if (years.value == 0 && yearSelect.value == 0) {
+
+                years.style.border = "2px solid red"
+                document.getElementById('modal').innerHTML = "Enter a year"
+                document.getElementById('modal').style.color = "red"
+                audio.play();
+
+            } else {
+
+                document.querySelector('.modal-backdrop').style.display = "block"
+                document.querySelector('.modal').style.display = "block"
+
+                //
+                if (years.value == 0) {
+
+
+                    if (yearSelect.value < 0) {
+                        yearSelect.style.border = "2px solid red"
+                        document.getElementById('modal').innerHTML = "Year Can not be negative"
+                        document.getElementById('modal').style.color = "red"
+                        audio.play();
+                    } else {
+
+                        yearSelect.style.border = "2px solid blue"
+                        document.getElementById('modal').style.color = "green"
+
+                        var year = yearSelect.value;
+
+                        if (year % 400 == 0) {
                             document.getElementById('modal').innerHTML = year + " is leap Year";
-                        } else {
+                        } else if (year % 4 == 0) {
+                            if (year % 100 !== 0) {
+                                document.getElementById('modal').innerHTML = year + " is leap Year";
+                            } else {
+                                document.getElementById('modal').innerHTML = year + " is not leap Year";
+                            }
+                        }
+
+                        else {
                             document.getElementById('modal').innerHTML = year + " is not leap Year";
                         }
-                    }
-
-                    else{
-                        document.getElementById('modal').innerHTML = year + " is not leap Year";
-                    }
 
                     }
 
@@ -358,9 +484,49 @@
                         document.querySelector('.modal-backdrop').style.display = "none"
                         document.querySelector('.modal').style.display = "none"
                     }, 3000);
+                    this.reset();
 
-                    })
+                } else {
 
+
+                    if (years.value < 0) {
+                        years.style.border = "2px solid red"
+                        document.getElementById('modal').innerHTML = "Year Can not be negative"
+                        document.getElementById('modal').style.color = "red"
+                        audio.play();
+                    } else {
+
+                        years.style.border = "2px solid blue"
+                        document.getElementById('modal').style.color = "green"
+
+                        var year = years.value;
+
+                        if (year % 400 == 0) {
+                            document.getElementById('modal').innerHTML = year + " is leap Year";
+                        } else if (year % 4 == 0) {
+                            if (year % 100 !== 0) {
+                                document.getElementById('modal').innerHTML = year + " is leap Year";
+                            } else {
+                                document.getElementById('modal').innerHTML = year + " is not leap Year";
+                            }
+                        }
+
+                        else {
+                            document.getElementById('modal').innerHTML = year + " is not leap Year";
+                        }
+
+                    }
+
+                    setTimeout(() => {
+                        document.querySelector('.modal-backdrop').style.display = "none"
+                        document.querySelector('.modal').style.display = "none"
+                    }, 3000);
+                    this.reset();
+                }
+
+            }
+
+        })
 
     </script>
     <script src="js/bootstrap.bundle.min.js"></script>
